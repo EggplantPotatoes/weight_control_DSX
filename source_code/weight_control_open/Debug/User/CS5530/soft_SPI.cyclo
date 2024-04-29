@@ -1,0 +1,8 @@
+../User/CS5530/soft_SPI.c:10:6:SPI_Delay_us	2
+../User/CS5530/soft_SPI.c:20:6:SPI_Delay_ms	2
+../User/CS5530/soft_SPI.c:30:6:ADC_SPI_Write_Byte	3
+../User/CS5530/soft_SPI.c:56:6:ADC_SPI_Write_Data	2
+../User/CS5530/soft_SPI.c:69:6:ADC_SPI_Write_Reg	1
+../User/CS5530/soft_SPI.c:76:9:ADC_SPI_Read_Byte	3
+../User/CS5530/soft_SPI.c:105:10:ADC_SPI_Read_Data	2
+../User/CS5530/soft_SPI.c:120:10:ADC_SPI_Read_Reg	1

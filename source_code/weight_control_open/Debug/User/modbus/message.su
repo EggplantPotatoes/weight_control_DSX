@@ -1,0 +1,8 @@
+../User/modbus/message.c:13:6:message_set_zero	8	static
+../User/modbus/message.c:31:6:message_standardization	24	static
+../User/modbus/message.c:50:6:message_standardization32	16	static
+../User/modbus/message.c:66:6:message_send_weight	16	static
+../User/modbus/message.c:90:6:message_send_AD	16	static
+../User/modbus/message.c:109:6:message_send_version	16	static
+../User/modbus/message.c:125:6:message_send_addr	16	static
+../User/modbus/message.c:142:6:message_set_address	16	static

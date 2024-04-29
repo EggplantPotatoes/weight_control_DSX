@@ -1,0 +1,5 @@
+../User/user_bsp/flash.c:3:10:STMFLASH_ReadHalfWord	1
+../User/user_bsp/flash.c:8:6:STMFLASH_Write_NoCheck	2
+../User/user_bsp/flash.c:24:5:FLASH_ErasePage	2
+../User/user_bsp/flash.c:39:6:STMFLASH_Write	10
+../User/user_bsp/flash.c:93:6:STMFLASH_Read	2

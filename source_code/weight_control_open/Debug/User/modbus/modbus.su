@@ -1,0 +1,10 @@
+../User/modbus/modbus.c:33:10:CRC_CHECK	32	static
+../User/modbus/modbus.c:53:6:Modbud_fun_03	16	static
+../User/modbus/modbus.c:75:6:Modbud_fun_06	16	static
+../User/modbus/modbus.c:97:6:Modbud_fun_10	24	static
+../User/modbus/modbus.c:119:9:modbus_receive_packet	24	static
+../User/modbus/modbus.c:159:6:modbus_send_packet	16	static
+../User/modbus/modbus.c:165:6:uart1_callback	16	static
+../User/modbus/modbus.c:181:6:modbus_timeout	8	static
+../User/modbus/modbus.c:199:6:modbus_init	16	static
+../User/modbus/modbus.c:214:6:set_modbus_address	24	static

@@ -1,0 +1,12 @@
+D:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdio.h:224:5:fputc	16	static
+D:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/stdio.h:222:5:fgetc	24	static
+../User/user_bsp/user_uart.c:46:5:_write	24	static
+../User/user_bsp/user_uart.c:53:6:modbus_uart_init	8	static
+../User/user_bsp/user_uart.c:61:13:uart1_callback	4	static
+../User/user_bsp/user_uart.c:67:9:uart1_Receive_one_byte	4	static
+../User/user_bsp/user_uart.c:74:6:uart1_send_data	16	static
+../User/user_bsp/user_uart.c:79:6:set_uart1_baud	16	static
+../User/user_bsp/user_uart.c:98:9:XOR_Check	24	static
+../User/user_bsp/user_uart.c:112:6:ble_send_data	16	static
+../User/user_bsp/user_uart.c:122:6:ble_Message_analysis	8	static
+../User/user_bsp/user_uart.c:168:6:HAL_UART_RxCpltCallback	16	static

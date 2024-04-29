@@ -1,0 +1,7 @@
+../User/user_bsp/ble_uart.c:15:6:ble_uart_init	1
+../User/user_bsp/ble_uart.c:23:6:ble_report_AD_value	1
+../User/user_bsp/ble_uart.c:47:6:ble_report_weight	1
+../User/user_bsp/ble_uart.c:71:6:ble_report_AD_weight	1
+../User/user_bsp/ble_uart.c:103:6:ble_set_zero	1
+../User/user_bsp/ble_uart.c:125:6:ble_standardization	1
+../User/user_bsp/ble_uart.c:148:6:ble_method_para_parse	9

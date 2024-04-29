@@ -1,0 +1,3 @@
+../User/user_bsp/fmc_flash.c:16:6:fmc_read_bytes	32	static
+../User/user_bsp/fmc_flash.c:38:5:fmc_earse_page	48	static
+../User/user_bsp/fmc_flash.c:55:5:fmc_write_bytes	64	static
