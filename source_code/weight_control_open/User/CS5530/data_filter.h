@@ -43,9 +43,12 @@ extern int32_t ad4_window_buf[WIN_NUM];
 
 int32_t low_pass_filter(int32_t Vi);
 int32_t window_filter(int32_t data, int32_t *buf, uint8_t len);
+int32_t kalman_filter(int32_t ADC_Value);
+int32_t averageFilter(void); // 滤波
 uint32_t data_filter(uint32_t ADC_Value);
 int32_t max_min_filter(int32_t data_input, MAX_MIN_FILTER *mm_data);
 
+int32_t adc1_average_filter(void);
 
 
 #define MAX_ITERATIONS 20 // 最大迭代次数
@@ -53,6 +56,18 @@ int32_t max_min_filter(int32_t data_input, MAX_MIN_FILTER *mm_data);
 #define Q_ESTIMATION 0.0001f // 状态估计噪声协方差
 //#define ADC_DATA_COUNT 20 // ADC采样数据的数量
 
+// 状态向量和测量向量结构体
+typedef struct {
+    float x_k; // 状态向量
+    float p_k; // 状态协方差
+    float k_k; // 卡尔曼增益
+    float z_k; // 测量向量
+} kalman_data_t;
 
+extern kalman_data_t filter_x;
+
+
+void kalman_init(kalman_data_t *filter, float initial_value);
+float kalman_update(kalman_data_t *filter, uint32_t measurement);
 
 #endif

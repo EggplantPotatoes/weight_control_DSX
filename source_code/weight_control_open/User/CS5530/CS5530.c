@@ -126,11 +126,14 @@ int32_t ADC_read_ad_data(void)
 
 void ADC_read_value(void)
 {
+//		ADC.CS5530_ad_original = averageFilter();
 		ADC.CS5530_ad_original = ADC_read_ad_data();
 //		printf("ADC1_data = %d \r\n",ADC.CS5530_ad_original);
 		ADC.CS5530_ad_original_filter_1 = window_filter(ADC.CS5530_ad_original, ad1_window_buf, WIN_NUM);
-		ADC.CS5530_ad_original_filter_2 = max_min_filter(ADC.CS5530_ad_original_filter_1, &mm_filter_1);
-		ADC.CS5530_ad_original_new  = ADC.CS5530_ad_original_filter_2;
+//		ADC.CS5530_ad_original_filter_2 = max_min_filter(ADC.CS5530_ad_original_filter_1, &mm_filter_1);
+		ADC.CS5530_ad_original_new = kalman_filter(ADC.CS5530_ad_original_filter_1);
+//		ADC.CS5530_ad_original_new  = ADC.CS5530_ad_original_filter_2;
+//		ADC.CS5530_ad_original_new = kalman_filter(ADC.CS5530_ad_original_filter_2);
 		ADC.AD_value = ADC.CS5530_ad_original_new - ADC.zero_offset - ADC.peel;
 		ADC.weight_value_new = ADC.AD_value * ADC.K_convert;
 		ADC.weight_value = ADC.weight_value_new;

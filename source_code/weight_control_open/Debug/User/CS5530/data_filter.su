@@ -2,4 +2,6 @@
 ../User/CS5530/data_filter.c:37:9:low_pass_filter	48	static
 ../User/CS5530/data_filter.c:55:6:bubblesort	24	static
 ../User/CS5530/data_filter.c:74:9:window_filter	32	static
-../User/CS5530/data_filter.c:97:9:max_min_filter	24	static
+../User/CS5530/data_filter.c:121:9:averageFilter	24	static
+../User/CS5530/data_filter.c:166:9:kalman_filter	40	static
+../User/CS5530/data_filter.c:268:9:max_min_filter	24	static
