@@ -8,8 +8,7 @@
 
 
 
-
-![称重控制器模块1_01](https://github.com/EggplantPotatoes/weight_control_DSX/assets/50572578/390fa5df-7de5-4a2a-bdce-611354d22a3a)
+![称重控制器模块1_03](https://github.com/EggplantPotatoes/weight_control_DSX/assets/50572578/331925f7-3a6f-458a-8b65-77b9fc20eeac)
 
 
 
