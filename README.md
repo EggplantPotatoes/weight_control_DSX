@@ -7,6 +7,8 @@
 
 硬件开源地址：https://oshwhub.com/smile_jd/new-project_2023-11-05_11-45-28
 
+称重视频效果：https://www.bilibili.com/video/BV1NT421y7vf/?spm_id_from=333.999.0.0&vd_source=4c57166c6142504cc135c2135bf9844e
+
 
 ![称重控制器模块1_01](https://github.com/EggplantPotatoes/weight_control_DSX/assets/50572578/a75305ef-50a8-4bb4-b7c9-7f1a0ed980d2)
 
