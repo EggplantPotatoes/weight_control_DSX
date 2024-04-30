@@ -3,5 +3,5 @@
 ../User/CS5530/CS5530.c:105:6:ADC_init	1
 ../User/CS5530/CS5530.c:112:9:ADC_read_ad_data	1
 ../User/CS5530/CS5530.c:127:6:ADC_read_value	1
-../User/CS5530/CS5530.c:144:6:CS5530_set_zero_offset	1
-../User/CS5530/CS5530.c:156:6:CS5530_standardization	1
+../User/CS5530/CS5530.c:141:6:CS5530_set_zero_offset	1
+../User/CS5530/CS5530.c:153:6:CS5530_standardization	1
